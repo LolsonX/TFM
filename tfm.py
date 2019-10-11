@@ -1,6 +1,5 @@
 from pprint import pprint
 import re
-import numpy as np
 import PyPDF4
 import os
 
@@ -84,7 +83,6 @@ def run():
             row.append(distance)
         vector_distances.append(row)
     pprint(vector_distances)
-    #print("".join(rows))
 
 
 def read_files(file_paths):
